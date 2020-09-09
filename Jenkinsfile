@@ -1,5 +1,5 @@
 node {
-    env.AWS_ECR_LOGIN=true
+    env.AWS_ECR_LOGIN=false
     def newApp
     def registry = 'radhouenassakra/docker-test'
     def registryCredential = 'dockerhub'
