@@ -1,5 +1,5 @@
 {
-  "name": "node-todo-frontend",
+  "name": "node-todo-frontend-app",
   "version": "1.0.0",
   "description": "A Front-end service with node.js and handlebars for microservice example",
   "main": "server.js",
