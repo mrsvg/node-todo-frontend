@@ -1,7 +1,4 @@
 node {
-    
-	
-
     env.AWS_ECR_LOGIN=true
     def newApp
     def registry = 'radhouenassakra/docker-test'
