@@ -1,5 +1,5 @@
 node {
-    env.AWS_ECR_LOGIN=false
+   /* env.AWS_ECR_LOGIN=false
     def newApp
     def registry = 'radhouenassakra/docker-test'
     def registryCredential = 'dockerhub'
@@ -28,6 +28,12 @@ node {
     stage('Removing image') {
         sh "docker rmi $registry:$BUILD_NUMBER"
         sh "docker rmi $registry:latest"
-    }
+    }*/
+	stage('display folders') {
+	 dh = new File('.')
+    	 dh.eachFile {
+         println(it)
+    	}
+	}
     
 }
