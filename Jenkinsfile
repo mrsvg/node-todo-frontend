@@ -1,11 +1,11 @@
 node {
    /* env.AWS_ECR_LOGIN=false
     def newApp
-    def registry = 'radhouenassakra/docker-test'
+    def registry = 'mrsvg/frontend-app'
     def registryCredential = 'dockerhub'
 	
 	stage('Git') {
-		git 'https://github.com/radhouen/node-todo-frontend'
+		git 'https://github.com/mrsvg/node-todo-frontend'
 	}
 	stage('Build') {
 		sh 'npm install'
